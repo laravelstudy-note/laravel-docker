@@ -33,7 +33,7 @@ ADD ./docker/php8/vhosts.conf /etc/apache2/conf-enabled/vhosts.conf
 # mod rewrite
 RUN a2enmod rewrite
 
-WORKDIR /app
+WORKDIR /workspace
 
 # restart apache2
 RUN service apache2 restart

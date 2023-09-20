@@ -24,6 +24,12 @@ $ docker compose run web composer create-project laravel/laravel app
 
 ※ laravelのパスは環境に合わせて設定
 
+buildを再実行する
+
+```
+$ docker compose build
+```
+
 
 ### 4. .envの設定
 
